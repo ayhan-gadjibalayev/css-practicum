@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+}
+
+.header {
+    font-size: 50px;
+    flex-grow: 2;
+    padding: 30px;
+}
+
+.item {
+    background-color: yellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.glav {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.novosti {
+    font-size: 35px;
+    margin: 1px 10px 1px 10px;
+}
+
+.text100 {
+    border: 3px solid gray;
+    font-size: 13px;
+    display: block;
+}
+
+.tyk {
+    font-size: 15px;
+}
