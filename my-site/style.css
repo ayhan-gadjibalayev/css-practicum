@@ -26,8 +26,7 @@
 }
 
 .glav {
-    font-size: 40px;
-    padding: 20px;
+   padding: 20px;
 }
 
 .novosti {
@@ -37,10 +36,93 @@
 
 .text100 {
     border: 3px solid gray;
+    padding: 15px;
     font-size: 13px;
     display: block;
 }
 
 .tyk {
-    font-size: 15px;
+    font-size: 17px;
+    padding: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+.tyk:hover {
+   text-decoration: none;
+}
+
+.pod {
+    color: blue;
+}
+
+.pod:hover {
+    text-decoration: none;
+}
+
+
+.pas {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pass {
+    padding: 10px;
+}
+
+.top {
+    background-color: gray;
+    font-size: 50px;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    padding: 30px;
+    background-color: gray;
+    flex-direction: column;
+}
+
+.topp {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    flex-wrap: wrap;
+
+}
+
+.rty {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tg {
+    background: url(tg.webp) no-repeat ;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
+}
+
+.yt {
+    background: url(youtube-logo-hd-8.png) no-repeat;
+    background-position: -16px -8px;
+    width: 30px;
+    height: 30px;
+    background-size: 64px;
+}
+
+.fs {
+    background: url(qs.png) no-repeat ;
+    width: 30px;
+    height: 30px;
+    background-size: 30px;
 }
