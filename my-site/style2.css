@@ -1,0 +1,108 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+}
+
+.header {
+    font-size: 50px;
+    flex-grow: 2;
+    padding: 30px;
+}
+
+.item {
+    background-color: yellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.prorok {
+    width: 200px;
+    height: auto;
+}
+
+.glav {
+   padding: 20px;
+}
+
+.zagolovok {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.text10 {
+   color: black;
+   font-size: 15px;
+}
+
+.novost-1{
+    display: flex;
+}
+
+.wera {
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.seredina {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+}
+
+.nrav {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.nonrav {
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.podl {
+    padding: 10px;
+    background-color: grey;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.pohoj {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+
+.text100 {
+    border: 3px solid gray;
+    padding: 15px;
+    font-size: 13px;
+    display: block;
+}

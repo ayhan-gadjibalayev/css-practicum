@@ -1,0 +1,47 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+}
+
+.header {
+    font-size: 50px;
+    flex-grow: 2;
+    padding: 30px;
+}
+
+.item {
+    background-color: yellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.kontakt {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.slovo {
+
+}
+
+.pole {
+    width: 150px;
+    height: 30px;
+}

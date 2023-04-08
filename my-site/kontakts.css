@@ -1,0 +1,97 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: blue;
+}
+
+.header {
+    font-size: 50px;
+    flex-grow: 2;
+    padding: 30px;
+}
+
+.item {
+    background-color: yellow;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.kontakts {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.cococo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+.pole {
+    height: 36px;
+    padding: 0 10px 0 10px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+
+.slovo {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.popopo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.bobobo {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.tema {
+    width: 450px;
+    font-weight: bold;
+}
+
+#text {
+    width: 450px;
+    border-radius: 6px;
+    border: 2px solid grey;
+}
+
+.obas {
+    color: red;
+}
+
+.otpr {
+    background-color: red;
+    margin: 40px;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.sbor {
+    background-color: blue;
+    margin: 40px;
+    color: aliceblue;
+    border-radius: 6px;
+    padding: 5px;
+}
