@@ -330,10 +330,11 @@ html {
 
 .right-block {
     width: 300px;
-    background-color: rgb(198, 57, 57);
     height: 160%;
+    border-left: 1px solid grey;
     display: flex;
     flex-grow: 1;
+    flex-direction: column;
 }
 
 .profile {
@@ -360,19 +361,154 @@ html {
 .name-profile {
     font-size: 15px;
     margin-left: 10px;
+    position: relative;
+    top: -5px;
 }
 
-.wera {
+.Final-layouts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.closs {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 20px;
+}
+
+.date {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    color: #ababab;
 }
 
-.final-layo {
+.god {
+    margin-left: 20px;
+}
+
+.dot {
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.layot-tags {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 28px;
+    justify-content: space-between;
+} 
+
+.planning {
+    width: 340px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    height: 140px;
+    background-color: #daedff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;   
+}
+
+.plan {
     display: flex;
 }
 
-.wedr {
+.repost-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 30px;
+    border: 1px solid grey;
+}
+
+.time-and-delo {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
+    color: rgb(174, 0, 255);
+}
+
+.design-sprint {
+    width: 340px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    height: 180px;
+    background-color: #c873d3;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;  
+}
+
+.sprint-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 30px;
+    border: 1px solid grey;
+}
+
+.sprint {
+    display: flex;
+}
+
+.team-review {
+    width: 340px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    height: 180px;
+    background-color: #56ddff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+.team {
+    display: flex;
+}
+
+.review {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-left: 30px;
+    border: 1px solid grey;
+}
+
+.name-team {
+    color: aqua;
+}
+
+.time-team {
+    color: aquamarine;
+}
+
+.wert {
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.manage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.timeline {
+    border: 1px solid grey;
+    padding: 10px 100px 10px 100px;
+    border-radius: 10px;
 }
